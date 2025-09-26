@@ -5,8 +5,8 @@ on:
     branches:
       - main
   workflow_dispatch:
-  schedule:
-    - cron: "53 14 * * *"
+  #schedule:
+   # - cron: "53 14 * * *"
 
 jobs:
   run-tests:
